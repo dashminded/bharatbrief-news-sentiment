@@ -59,7 +59,7 @@ if df is None:
     st.code("Step: Run all cells in india_pulse_simple.ipynb → then come back here")
     st.stop()   # Stop rendering the rest of the app
 
-# ── Show total count
+# ── Show total count ──────────────────────────────────────────────────────────
 total   = len(df)
 pos_pct = round((df["sentiment"] == "Positive").mean() * 100)
 neg_pct = round((df["sentiment"] == "Negative").mean() * 100)
