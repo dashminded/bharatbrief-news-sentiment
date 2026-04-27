@@ -1,0 +1,4 @@
+newsapi-python
+vaderSentiment
+streamlit
+pandas
